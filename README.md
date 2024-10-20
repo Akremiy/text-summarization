@@ -34,7 +34,12 @@ This project implements a simple text summarization tool using Natural Language 
 
 ## Usage
 
-1. Create a text file named `input.txt` in the root directory of the project and populate it with the text you want to summarize.
+1. Create a text file named `input.txt` in the root directory of the project and populate it with the text you want to summarize. The text can be any written content, such as an article, essay, or report.
+
+   **Example of `input.txt`:**
+   ```
+   Natural Language Processing (NLP) is a field of artificial intelligence that focuses on the interaction between computers and humans through natural language. The ultimate objective of NLP is to enable computers to understand, interpret, and generate human languages in a valuable way.
+   ```
 
 2. Run the script:
    ```bash
@@ -55,7 +60,7 @@ This project implements a simple text summarization tool using Natural Language 
 ```
 /project-root
 │
-├── input.txt          # Input text file
+├── input.txt          # Input text file containing the text to summarize
 ├── main.py            # Main script for summarization
 └── README.md          # Project documentation
 ```
